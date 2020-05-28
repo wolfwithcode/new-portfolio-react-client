@@ -2,12 +2,12 @@ import React from 'react'
 import './navbar.styles.scss'
 export default function Navbar() {
     return (
-        <nav class="top-nav">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-2"><img class="top-nav__logo" src="img/mylogo.png"/></div>
-              <div class="col-md-offset-1 col-md-8">
-                <ul class="top-nav__menu nav">
+        <nav className="top-nav">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-2"><img className="top-nav__logo" src="img/mylogo.png"/></div>
+              <div className="col-md-offset-1 col-md-8">
+                <ul className="top-nav__menu nav">
                   <li><a href="#">HOME</a></li>
                   <li><a href="#">ABOUT ME</a></li>
                   <li><a href="#">SKILLS</a></li>

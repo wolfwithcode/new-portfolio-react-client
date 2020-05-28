@@ -26,14 +26,14 @@ export default class Summary extends Component {
     }
     render() {
         return (
-        <section class="summary">
-            <div class="container">
-            <div class="row">
+        <section className="summary">
+            <div className="container">
+            <div className="row">
                 {
                     this.state.summary_content_data.map( (dataObject,index) => (                        
-                        <div class="col-md-4" key={index}>  
+                        <div className="col-md-4" key={index}>  
                             {console.log('dataObject ',dataObject)}
-                            <SummaryContent dataObject={dataObject}/>
+                            <SummaryContent {...dataObject}/>
                         </div>  
                     ))
                 }

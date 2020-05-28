@@ -1,0 +1,21 @@
+.banner{
+    .banner__image {
+        background:  url('/img/storm.jpg') center center fixed;
+        min-height: 50vh;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .banner__content {
+            font-size: 1em;
+            padding: 1.5em;
+            border-radius: 10px;
+            color: black;
+            /* display: flex; */
+            text-align: center;
+        }
+        
+    }
+    
+}

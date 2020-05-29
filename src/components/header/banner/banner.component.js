@@ -3,7 +3,7 @@ import './banner.styles.scss'
 export default function Banner() {
     return (
     <section className="banner">
-        <div className="container">
+        <div className="container-fuild">
           <div className="row">
             <div className="col">
               <div className="banner__image">
